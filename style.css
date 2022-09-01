@@ -1,0 +1,121 @@
+html {
+  max-width: 100%;
+  background-color: #1a1a1a;
+}
+body {
+  overflow-x: hidden;
+  left: 0px;
+  background-color: #1a1a1a;
+  bottom: 0;
+}
+.frontpageramen {
+  width: 25%;
+  font-family: 'Chango', cursive;
+}
+
+/* #firstRamenBowldiv {
+} */
+
+#firstRamenBowl {
+  background-color: #1a1a1a;
+  width: 100%;
+  max-width: 100%;
+  min-width: 1200px;
+  padding-top: 100px;
+  margin: 0;
+  position: relative;
+  align-items: center;
+  align-self: center;
+  display: flex;  
+  left: 0px;
+  background-color: #1a1a1a;
+}
+
+#carouselExampleControls {
+  position: absolute;
+  padding-left: min(100px, 10%);
+  padding-right: 15%;
+  font-size: 6rem;
+  top: 30%;
+}
+
+.firstRamenBowl-desc {
+  font-family: 'Chango', cursive;
+  font-size: calc(42px + 2vw);
+  margin-left: 50vw;
+  margin-right: 10px;
+  color: cornsilk;
+  
+}
+
+.firstRamenBowl-desc-div {
+  width: 20%;
+  
+}
+
+#navbarTogglerDemo02 {
+  font-family: 'Chango', cursive;
+}
+
+.tamagoRamenIncDesc {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: cornsilk;
+  font-size: medium;
+  background-color: #050202;
+}
+
+#firstRamenBowl-and-carousel {
+text-align: center;
+color: #1a1a1a;
+position: relative;
+}
+
+#location-button {
+  position: relative;
+  width: 5%;
+  background-color: #050202;
+  color: #050202;
+  padding-left: 45%;
+  padding-right: 55%;
+  padding-bottom: 5%;
+}
+
+.menuUI {
+  text-align: center;
+  padding: 5% 5%;
+  background-color: #1a1a1a;
+  font-family: 'Arvo', serif;
+  color: crimson;
+}
+
+.filler {
+  text-align: center;
+  padding: 5% 5%;
+  background-color: #050202;
+  font-family: 'Knewave', cursive;
+}
+
+.filler h2 {
+  color: crimson;
+  font-size: 3rem;
+}
+
+.card-body {
+  color:#050202;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: #050202;
+  color: beige;
+}
+
+.menuUI .feature-box {
+  padding: 20px;
+}
