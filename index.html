@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/77f4944b88.js" crossorigin="anonymous"></script>
   <title>Tamago Ramen</title>
   <link rel="stylesheet" href="style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -36,13 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto me-5">
           <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Menu</a>
+            <a class="nav-link" href="#menuUI">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Our Passion</a>
+            <a class="nav-link" href="#filler-title">What's New</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">Contact Us</a>
@@ -72,12 +73,12 @@
   <div class="tamagoRamenIncDesc">
     Egg Ramen has been around since the 1800s, and it was a formula that survive the test of time. Our hope is to make it even better to everyone at Tamago Ramen. Founded in 1989, we have expanded to 27 different locations in Japan, Korea, and the US. The first American branch started in 2002 of in downtown LA. The newest branch will soon hit Houston, Texas and we hope for more to come!
   </div>
-  <div id="location-button">
-    <button type="button" class="btn btn-outline-danger btn-lg">Locations</button>
+  <div style="width: 100%;" id="location-button">
+    <!-- <button type="button" class="btn btn-outline-danger btn-lg">Locations</button> -->
   </div>
 
-<section class="menuUI">
-  <h2 style="font-size: 8rem;">M E N U</h2>
+<section class="menuUI" id="menuUI">
+  <h2 style="font-size: calc(52px + 3.5vw);">M E N U</h2>
   <br>
   <div class="row">
     <div class="feature-box col-lg-4 col-md-6">
@@ -133,10 +134,10 @@
 </section>
 
 <section class="filler">
-  <h2>What we have going on...</h2>
+  <h2 id="filler-title">What we have going on...</h2>
   <br>
   <div class="row">
-    <div class="feature-box col-lg-4 col-md-6">
+    <div class="feature-box col-sm-4 ">
       <div class="card-deck">
         <div class="card"style="background-color: black; max-width: 500px; max-height:400px; margin-bottom:30px;">
           <img class="card-img-top" src="images/ExWm.gif" alt="Card image cap">
@@ -145,7 +146,7 @@
         </div>
       </div>
     </div>
-    <div class="feature-box col-lg-4 col-md-6">
+    <div class="feature-box col-sm-4">
       <div class="card-deck">
         <div class="card"style="background-color: black; max-width: 500px; max-height:400px; margin-bottom:30px;">
           <img class="card-img-top" src="images/chefspecial.jpg" alt="Card image cap">
@@ -155,7 +156,7 @@
         </div>
       </div>
 
-    <div class="feature-box col-lg-4 col-md-6">
+    <div class="feature-box col-sm-4">
       <div class="card-deck">
         <div class="card" style="background-color: black; max-width: 500px; max-height:400px; margin-bottom:30px;">
           <img class="card-img-top" src="images/wehiring.png" alt="Card image cap" style="height: 80%;">
@@ -169,6 +170,8 @@
 </section>
 </body>
   <footer >
-    <p style="background-image:url('https://z5r3u2r9.stackpathcdn.com/cms/wp-content/uploads/2021/11/north-america-map.png');">© Copyright Phuoc Nguyen</p>
+    <div id="contact-us-icons"><a href="https://www.google.com"><i class="fa-brands fa-square-facebook fa-3x"></i></a><a href="https://www.google.com"><i class="fa-brands fa-instagram fa-3x"></i></a><a href="https://www.google.com"><i class="fa-brands fa-twitter fa-3x"></i></a></div>
+    <br>
+    <div style="background-image:url('https://z5r3u2r9.stackpathcdn.com/cms/wp-content/uploads/2021/11/north-america-map.png');">© Copyright Phuoc Nguyen</div>
   </footer>
 </html>
