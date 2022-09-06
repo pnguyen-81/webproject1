@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/77f4944b88.js" crossorigin="anonymous"></script>
@@ -33,10 +34,12 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto me-5">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
+            <a style="font-family: 'Courier New', Courier, monospace; background-color: rgb(255, 72, 72); color: #1a1a1a; font-weight: bold;" id="shopping-cart" class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping fa-lg"></i>0</a>
+          </li>
+          <li class="nav-item"> -->
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -46,7 +49,7 @@
             <a class="nav-link" href="#filler-title">What's New</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contact Us</a>
+            <a class="nav-link" id="contact-us-alert">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -56,7 +59,7 @@
   <div id="firstRamenBowl-and-carousel">
       <img src="images/front-image.jfif" alt="" id="firstRamenBowl">
       
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="2000">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="1000">
         <div class="carousel-inner">
           <div class="carousel-item active firstRamenBowl-desc-div">
             <h2 class="firstRamenBowl-desc">Japanese Egg Ramen</h2>
@@ -85,7 +88,7 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative;"/> ITEM 1</a>
+            <a href="menu.html#APPETIZERS-MENU" id="APPETIZER"><img src="images/apps2.gif" style="width: 100%; position: relative;"/></a>
        </button>
         </div>
       </div>
@@ -94,7 +97,7 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative;"/> ITEM 2</a>
+            <a href="menu.html#RAMEN-WITH-SOUP-MENU"><img src="images/withsoup.gif" style="width: 100%; position: relative;"/></a>
        </button>
         </div>
       </div>
@@ -102,7 +105,7 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative;"/> ITEM 3</a>
+            <a href="menu.html#RAMEN-NO-SOUP-MENU"><img src="images/withoutsoup2.gif" style="width: 100%; position: relative;"/></a>
        </button>
         </div>
       </div>
@@ -110,7 +113,7 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative;"/> ITEM 4</a>
+            <a href="menu.html#TOPPINGS"><img src="images/tops2.gif" style="width: 100%; position: relative;"/></a>
        </button>
         </div>
       </div>
@@ -118,7 +121,7 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative;"/> ITEM 5</a>
+            <a href="menu.html#BEVERAGE"><img src="images/burr.gif" style="width: 100%; position: relative;"/></a>
        </button>
         </div>
       </div>
@@ -126,14 +129,14 @@
       <div class="card-deck">
         <div class="card" style=" background-color:#1a1a1a;  color: crimson; width: 100%;">
           <button class="btn btn-default" style=" color: crimson;">
-            <a href="https://www.google.com"><img src="images/fried-chicken.gif" style="width: 100%; position: relative; font-size: 3rem;"/> ITEM 6</a>
+            <a href="menu.html#DESSERTS"><img src="images/dess2.gif" style="width: 100%; position: relative; font-size: 3rem;"/></a>
        </button>
         </div>
       </div>
     </div>
 </section>
 
-<section class="filler">
+<div class="filler">
   <h2 id="filler-title">What we have going on...</h2>
   <br>
   <div class="row">
@@ -167,11 +170,12 @@
       </div>
     </div>
 
-</section>
+  </div>
 </body>
+<script src="script.js"></script>
   <footer >
     <div id="contact-us-icons"><a href="https://www.google.com"><i class="fa-brands fa-square-facebook fa-3x"></i></a><a href="https://www.google.com"><i class="fa-brands fa-instagram fa-3x"></i></a><a href="https://www.google.com"><i class="fa-brands fa-twitter fa-3x"></i></a></div>
     <br>
-    <div style="background-image:url('https://z5r3u2r9.stackpathcdn.com/cms/wp-content/uploads/2021/11/north-america-map.png');">© Copyright Phuoc Nguyen</div>
+    <div style="background-image:url('https://z5r3u2r9.stackpathcdn.com/cms/wp-content/uploads/2021/11/north-america-map.png');">©</div>
   </footer>
 </html>

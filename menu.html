@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/77f4944b88.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chango&family=Dancing+Script:wght@700&family=Knewave&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </head>
+
+    <body>
+        <div class="container-fluid" style="
+        height: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  background-color: #050202;
+">    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
+      <a class="navbar-brand" href=""><img class="frontpageramen" src="favicon/android-chrome-192x192.png">Tamago Ramen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto me-5">
+          <li>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-us-alert">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    
+    </nav>
+  </div>
+  <div class="menu-NAV-shortcut">
+  <a href="#APPETIZERS-MENU"><img id="menu-NAV-shortcut-img" src="images/apps2.gif" alt=""></a>
+  <a href="#RAMEN-WITH-SOUP-MENU"><img id="menu-NAV-shortcut-img" src="images/withsoup.gif" alt=""></a>
+  <a href="#RAMEN-NO-SOUP-MENU"><img id="menu-NAV-shortcut-img" src="images/withoutsoup2.gif" alt=""></a>
+  <a href="#TOPPINGS"><img id="menu-NAV-shortcut-img" src="images/tops2.gif" alt=""></a>
+  <a href="#BEVERAGE"><img id="menu-NAV-shortcut-img" src="images/burr.gif" alt=""></a>
+  <a href="#DESSERTS"><img id="menu-NAV-shortcut-img" src="images/dess2.gif" alt=""></a>
+  <br><br>
+</div>
+
+
+<h1 id="APPETIZERS-MENU" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-top: 5% ; padding-bottom: 2%; font-size: 4rem;">APPETIZERS</h1>
+
+<div style="background-color: #050202; width: 100%; overflow: hidden;">
+<div class="app-box">
+<img id="APPETIZER-IMGS" src="images/karaage.jpg" alt="" >
+<div class="menuITEMS-DESC">
+  <h3>Chicken Karaage</h3>
+  <br>
+  Sauces: 
+  Soy ginger, Cilantro, Habanero
+  <br>
+  Sweet Chili, Yangnyeom, Honey Mustard
+  <br>
+  <br>
+  Medium (8 Pieces + 2 Sauces) - 8.95
+  <br>
+  Large (15 Pieces + 3 Sauces) - 15.95
+  <br>
+  X-Large (30 Pieces + 4 Sauces) - 29.95  </div>
+
+</div>
+<div class="app-box">
+  <img id="APPETIZER-IMGS" src="images/gyoza.webp" alt="">
+  <div class="menuITEMS-DESC">
+    <h3>Gyoza</h3>
+    <br>
+    Chicken or Pork Gyoza
+    <br> 
+    Made instore!
+    <br> <br>
+    Medium (8 Pieces + 2 Sauces) - 8.95
+    <br>
+    Large (15 Pieces + 3 Sauces) - 15.95
+    <br>
+    X-Large (30 Pieces + 4 Sauces) - 29.95  </div>
+  
+  </div>
+  
+  <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/takoyaki.jpeg" alt="">
+    <div class="menuITEMS-DESC">
+      <h3>Takoyaki</h3>
+      <br>
+Traditional Japanese street food bites filled with octopus, bonito flakes, ao nori, and Japanese mayo. <br><br>
+    Medium (8 Pieces + 2 Sauces) - 8.95
+    <br>
+    Large (15 Pieces + 3 Sauces) - 15.95
+    <br>
+    X-Large (30 Pieces + 4 Sauces) - 29.95 
+  </div>
+    </div>
+    <div class="app-box">
+      <img id="APPETIZER-IMGS" src="images/tofusalad.png" alt="">
+      <div class="menuITEMS-DESC">
+        <h3>Tofu Salad</h3>
+        <br>
+        Arugula tofu salad with a kochujang dressing
+        <br><br>
+        15.95
+    </div>
+      </div>
+      <div class="app-box">
+        <img id="APPETIZER-IMGS" src="images/charsiubowl.png" alt="">
+        <div class="menuITEMS-DESC">
+          <h3>Charred-Xiu Bowl</h3>
+          <br>
+          Our charred pork (charxiu) over a bed of rice topped with seasoned green onions, come with a delicious seasoned soy sauce on the side. <br><br>
+        Medium (8 Pieces + 2 Sauces) - 8.95
+        <br>
+        Large (15 Pieces + 3 Sauces) - 15.95
+      </div>
+        </div>
+  </div>
+
+  <h1 id="RAMEN-WITH-SOUP-MENU" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-top: 5% ; padding-bottom: 2%; font-size: 4rem;">RAMEN WITH SOUP</h1>
+
+<div style="background-color: #050202; width: 100%; overflow: hidden;">
+<div class="app-box">
+<img id="APPETIZER-IMGS" src="images/istockphoto-1135293039-612x612.jpg" alt="" >
+<div class="menuITEMS-DESC">
+  <h3>Tokyo Style</h3>
+  <br>
+  Creamy and strong peanut broth with mushroom cooked overnight!
+  <br> <br>
+  Medium - 8.95
+  <br>
+  Large - 15.95
+  <br>
+  X-Large - 29.95  </div>
+
+</div>
+<div class="app-box">
+  <img id="APPETIZER-IMGS" src="images/istockphoto-511793034-612x612.jpg" alt="">
+  <div class="menuITEMS-DESC">
+    <h3>Okinawa Style</h3>
+    <br>
+    Chicken or Pork protein with light broth to balance.
+    <br> <br>
+    Medium - 8.95
+    <br>
+    Large - 15.95
+    <br>
+    X-Large - 29.95  </div>
+  
+  </div>
+  
+  <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/istockphoto-607992438-612x612.jpg" alt="">
+    <div class="menuITEMS-DESC">
+      <h3>Hiroshima Style</h3>
+      <br>
+Light vinegar and chilly broth with tender beef that will satisfy the cravings.
+<br> <br>
+Medium - 8.95
+<br>
+Large - 15.95
+<br>
+X-Large - 29.95  
+  </div>
+    </div>
+  </div>
+
+  <h1 id="RAMEN-NO-SOUP-MENU" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-top: 5% ;; font-size: 4rem;">RAMEN WITHOUT SOUP</h1>
+  <h1  style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-top: 1% ; padding-bottom: 5%; font-size: 1rem;">Try any of our ramen without soup or try these no-soup only options!</h1>
+
+<div style="background-color: #050202; width: 100%; overflow: hidden;">
+<div class="app-box">
+<img id="APPETIZER-IMGS" src="images/360_F_494366083_jnMjB6mRcAJGxWitLUPJgeoVqR7YBqfF.jpg" alt="" >
+<div class="menuITEMS-DESC">
+  <h3>Incheon</h3>
+  <br>
+  Korean comfort style ramen
+  <br> <br>
+  Medium - 8.95
+  <br>
+  Large - 15.95
+  <br>
+  X-Large - 29.95  </div>
+
+</div>
+<div class="app-box">
+  <img id="APPETIZER-IMGS" src="images/Noodles-with-chilli-oil-eggs-6ec34e9.jpg" alt="">
+  <div class="menuITEMS-DESC">
+    <h3>Mein</h3>
+    <br>
+    Fried noodles and eggs, Chinese style
+    <br> <br>
+    Medium - 8.95
+    <br>
+    Large - 15.95
+    <br>
+    X-Large - 29.95  </div>
+  
+  </div>
+  
+  <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/nosoup.jpg" alt="">
+    <div class="menuITEMS-DESC">
+      <h3>American</h3>
+      <br>
+Grilled NY steak over fried ramen
+<br> <br>
+Medium - 8.95
+<br>
+Large - 15.95
+<br>
+X-Large - 29.95  
+  </div>
+    </div>
+  </div>
+
+  <h1 id="TOPPINGS" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-bottom: 2%; font-size: 4rem;">TOPPINGS</h1>
+
+<div style="background-color: #050202; width: 100%; overflow: hidden;">
+<div class="app-box">
+<img id="APPETIZER-IMGS" src="images/whatthis.png" alt="" >
+<div class="menuITEMS-DESC">
+  <h3>Poached Egg</h3>
+  <br>
+  2.99
+  <br> 
+</div>
+</div>
+<div class="app-box">
+  <img id="APPETIZER-IMGS" src="images/charsiu.png" alt="">
+  <div class="menuITEMS-DESC">
+    <h3>Charsiu</h3>
+    <br>
+    4.99
+    <br>
+  
+  </div>
+</div>
+  <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/cilantro.png" alt="">
+    <div class="menuITEMS-DESC">
+      <h3>Cilantro</h3>
+      <br>
+1.49
+<br>
+  </div>
+    </div>
+
+    <div class="app-box">
+      <img id="APPETIZER-IMGS" src="images/tofu.png" alt="">
+      <div class="menuITEMS-DESC">
+        <h3>Tofu</h3>
+        <br>
+  1.49
+  <br>
+    </div>
+      </div>
+      <div class="app-box">
+        <img id="APPETIZER-IMGS" src="images/spicypaste.png" alt="">
+        <div class="menuITEMS-DESC">
+          <h3>Korean Spicy Paste</h3>
+          <br>
+    1.89
+    <br>
+      </div>
+        </div>
+        <div class="app-box">
+          <img id="APPETIZER-IMGS" src="images/beansprouts2.png" alt="">
+          <div class="menuITEMS-DESC">
+            <h3>Bean Sprout</h3>
+            <br>
+      1.49
+      <br>
+        </div>
+          </div>
+          <div class="app-box">
+            <img id="APPETIZER-IMGS" src="images/greenonions.png" alt="">
+            <div class="menuITEMS-DESC">
+              <h3>Green Onion</h3>
+              <br>
+        1.49
+        <br>
+          </div>
+            </div>
+        
+  </div>
+
+  <h1 id="BEVERAGE" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-bottom: 5%; font-size: 4rem;">DRINKS</h1>
+
+  <div style="background-color: #050202; width: 100%; overflow: hidden;">
+  <div class="app-box">
+  <img id="APPETIZER-IMGS" src="images/killericedgreentea.png" alt="" >
+  <div class="menuITEMS-DESC">
+    <h3>Match Green Tea</h3>
+    <br>
+    4.99
+    <br> 
+  </div>
+  </div>
+  <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/killercoke.png" alt="">
+    <div class="menuITEMS-DESC">
+      <h3>Coca Cola</h3>
+      <br>
+      2.99
+      <br>
+    
+    </div>
+  </div>
+    <div class="app-box">
+      <img id="APPETIZER-IMGS" src="images/killercalpico.png" alt="">
+      <div class="menuITEMS-DESC">
+        <h3>Calpico</h3>
+        <br>
+  3.49
+  <br>
+    </div>
+      </div>
+  
+      <div class="app-box">
+        <img id="APPETIZER-IMGS" src="images/killerkikusui.png" alt="">
+        <div class="menuITEMS-DESC">
+          <h3>Kikusui</h3>
+          <br>
+    4.49
+    <br>
+      </div>
+        </div>
+        <div class="app-box">
+          <img id="APPETIZER-IMGS" src="images/killerkigen.png" alt="">
+          <div class="menuITEMS-DESC">
+            <h3>Kigen</h3>
+            <br>
+      4.89
+      <br>
+        </div>
+          </div>
+          <div class="app-box">
+            <img id="APPETIZER-IMGS" src="images/killersapporo.png" alt="">
+            <div class="menuITEMS-DESC">
+              <h3>Sapporo</h3>
+              <br>
+        3.49
+        <br>
+          </div>
+            </div>       
+    </div>
+  
+    <h1 id="DESSERTS" style="background-color: #050202; margin: 0; border: 0; color: crimson; padding-top: 5% ; padding-bottom: 2%; font-size: 4rem;">DESSERTS</h1>
+
+    <div style="background-color: #050202; width: 100%; overflow: hidden;">
+    <div class="app-box">
+    <img id="APPETIZER-IMGS" src="images/kaki1.png" alt="" >
+    <div class="menuITEMS-DESC">
+      <h3>STRAWBERRY KAKI</h3>
+      <br>
+      Vanilla Kakigori with Strawberry syrup and whipcream
+      <br> <br>
+   15.95
+</div>
+    
+    </div>
+    <div class="app-box">
+      <img id="APPETIZER-IMGS" src="images/kaki2.png" alt="">
+      <div class="menuITEMS-DESC">
+        <h3>Brown Sugar Kaki</h3>
+        <br>
+        Brown Sugar Kakigori with Caeramel syrup and creamcheese foam
+        <br> <br>
+     15.95
+  </div>
+      
+      </div>
+    </body>
+</html>
