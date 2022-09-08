@@ -12,12 +12,15 @@ body {
   position: relative;
 }
 .frontpageramen {
-  width: 25%;
+  width: calc(23% + 1vw);
   font-family: 'Chango', cursive;
 }
 
-/* #firstRamenBowldiv {
-} */
+a.navbar-brand {
+  font-size: calc(12px + 1.2vw);
+  height: 12%;
+  margin-right: 0px;
+}
 
 #firstRamenBowl {
   background-color: #1a1a1a;
@@ -38,7 +41,7 @@ body {
 #carouselExampleControls {
   position: absolute;
   padding-left: min(100px, 10%);
-  padding-right: 10%;
+  padding-right: calc(10% - .5vw);
   font-size: 6rem;
   top: 40%;
 }
@@ -219,4 +222,25 @@ div.menuITEMS-DESC {
   background-color: #050202;
   float: left;
   height: 650px;
+}
+
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 3%; 
+  right: 3%;  
+  z-index: 99;
+  border: none;
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer;
+  padding: calc(10% - 9vw); 
+  border-radius: 10px; 
+  font-size: calc(18px + .5vw); 
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
